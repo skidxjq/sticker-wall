@@ -1,0 +1,30 @@
+{
+  "name": "sticker-wall",
+  "version": "1.0.0",
+  "description": "a sticker wall using indexDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./ -p 3002",
+    "gh-pages": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skidxjq/sticker-wall"
+  },
+  "keywords": [
+    "javascript",
+    "indexedDB"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skidxjq/sticker-wall/issues"
+  },
+  "homepage": "https://github.com/skidxjq/sticker-wall",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}

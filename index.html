@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>我的便签墙</h1>
+        <a href="javascript:void(0)" onclick="ModalHandler.openModal()">
+            <button class="add">添加</button>
+        </a>
+    </header>
+    <article>
+        <ul id="wrapper">
+<!-- 填充便签的地方 -->
+        </ul>   
+    </article>
+    <section id="modal">
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <h2>添加/修改便签</h2>
+            </div>
+            <div class="modal-body">
+                <p class="input">
+                    <label for="">标题：</label>
+                    <input type="text" class="input-title" value="" placeholder="请输入便签标题"  required="">
+                </p>
+                <p class="input">
+                    <label for="">内容：</label>
+                    <textarea name="" class="input-content" placeholder="请输入便签内容"></textarea>
+                </p> 
+                <p class="input color-radio">
+                    <label for="">颜色：</label>
+                    <input type="radio" name="color" id="color-1" checked="checked" value="style-one"/>
+                    <label class="label-color" for="color-1">淡绿色</label>
+
+                    <input type="radio" name="color" id="color-2"value="style-two"/>
+                    <label class="label-color" for="color-2">淡紫色</label>
+
+                    <input type="radio" name="color" id="color-3" value="style-three"/>
+                    <label class="label-color" for="color-3">淡黄色</label>   
+                    
+                    <input type="radio" name="color" id="color-4" value="style-four"/>
+                    <label class="label-color" for="color-4">土黄色</label>    
+
+                    <input type="radio" name="color" id="color-5" value="style-five"/>
+                    <label class="label-color" for="color-5">粉红色</label>  
+
+                    <input type="radio" name="color" id="color-6" value="style-six"/>
+                    <label class="label-color" for="color-6">淡蓝色</label>   
+
+                    <!-- <input type="radio" name="color" id="color-random"/>
+                    <label class="label-color" for="color-random" value="random">随机</label>
+ -->
+                    <!-- <textarea name="" class="input-content" placeholder="请输入便签内容"></textarea> -->
+                </p>
+            </div>
+            <div class="modal-footer">
+                    <button class="cancel" onclick="ModalHandler.cancelModal();">取消</button>
+                    <button class="submit" onclick="ModalHandler.submitNote();">确定</button>
+            </div>
+        </div>
+        <div class="mask"></div>
+    </section>
+</body>
+    <script src="./scripts/index.js"></script>
+
+</html>
