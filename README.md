@@ -1,11 +1,12 @@
 # sticker-wall
 a sticker wall using [indexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+
 [DEMO](https://skidxjq.github.io/sticker-wall)
 
 ## keywords
 ```css3``` ```indexedDB``` ```drag and drop```
 
-##screenshots
+## screenshots
 create a sticker
 ![Sticker one](screenshots/sticker1.gif)
 
