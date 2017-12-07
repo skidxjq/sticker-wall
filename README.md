@@ -7,10 +7,12 @@ a sticker wall using [indexedDB](https://developer.mozilla.org/en-US/docs/Web/AP
 ```css3``` ```indexedDB``` ```drag and drop```
 
 ## screenshots
-create a sticker
+#### create a sticker
+
 ![Sticker one](screenshots/sticker1.gif)
 
-adjust the sequence
+#### adjust the sequence
+
 ![Sticker two](screenshots/sticker2.gif)
 
 ## Details
